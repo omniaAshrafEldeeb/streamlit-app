@@ -31,4 +31,4 @@ if file is not None:
         col_to_histo = st.selectbox("choose column to make Histogram for it", df.columns)
         fig_hist = px.histogram(df,col_to_histo)
         st.plotly_chart(fig_hist)
-#print(df.columns)
+    print(df.columns)
