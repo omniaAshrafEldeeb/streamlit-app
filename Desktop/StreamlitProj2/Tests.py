@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+
 import pandas as pd
 def app():
     b,n = st.columns([2,3])
